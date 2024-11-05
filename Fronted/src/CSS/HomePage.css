@@ -1,0 +1,50 @@
+/* HomePage.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .animation-box {
+    border: 2px solid #1976d2;
+    background-color: #e3f2fd;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .animation-box:hover {
+    transform: scale(1.05);
+  }
+  
+  h3 {
+    color: #0d47a1;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  
+  h6 {
+    color: #5f6368;
+    margin-bottom: 30px;
+  }
+  
+  .container {
+    padding: 40px 20px;
+  }
+  
+  /* Additional Styling for Responsiveness */
+  @media (max-width: 768px) {
+    h3 {
+      font-size: 2rem;
+    }
+  
+    h6 {
+      font-size: 1rem;
+    }
+  
+    .animation-box {
+      padding: 20px;
+    }
+  }
+  

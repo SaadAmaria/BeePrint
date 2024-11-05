@@ -1,0 +1,68 @@
+/* ShieldCustomizationPage.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #e6f7ff, #d9e2ec);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .customization-container {
+    text-align: center;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+  }
+  
+  input[type="file"] {
+    margin: 15px 0;
+    padding: 10px;
+    border: 1px solid #1976d2;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    background-color: #f0f4f8;
+    transition: background-color 0.3s;
+  }
+  
+  input[type="file"]:hover {
+    background-color: #e3f2fd;
+  }
+  
+  img {
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  button {
+    margin-top: 20px;
+    background-color: #1976d2;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0d47a1;
+    transform: translateY(-2px);
+  }
+  
+  button:active {
+    transform: translateY(0);
+  }
+  
+  .customization-container h3 {
+    color: #0d47a1;
+    font-weight: 700;
+  }
+  
+  .customization-container h6 {
+    color: #5f6368;
+  }
+  
